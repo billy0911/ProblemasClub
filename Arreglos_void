@@ -1,0 +1,28 @@
+# incluye < iostream >
+usando el  espacio de nombres  std ;
+
+int arr [ 5 ];
+
+void  multiarreglo ( int a)
+{
+	para ( int i = 0 ; i < 5 ; i ++)
+	{
+		arr [i] * = a;
+	}
+}
+int  main ()
+{
+	int x = 0 , y = 0 ;
+	para ( int i = 0 ; i < 5 ; i ++)
+	{
+		cin >> arr [i];
+	}
+	cin >> x >> y;
+	multiarreglo (x);
+	multiarreglo (y);
+	para ( int j = 0 ; j < 5 ; j ++)
+	{
+		cout << arr [j] << "  " ;
+	}
+	return  0 ;
+}
